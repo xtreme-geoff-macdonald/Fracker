@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C37D787317E5533800034BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D787217E5533800034BF5 /* Foundation.framework */; };
+		C37D787517E5533800034BF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D787417E5533800034BF5 /* CoreGraphics.framework */; };
+		C37D787717E5533800034BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D787617E5533800034BF5 /* UIKit.framework */; };
+		C37D787D17E5533800034BF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C37D787B17E5533800034BF5 /* InfoPlist.strings */; };
+		C37D787F17E5533800034BF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D787E17E5533800034BF5 /* main.m */; };
+		C37D788317E5533800034BF5 /* FrackerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D788217E5533800034BF5 /* FrackerAppDelegate.m */; };
+		C37D788617E5533800034BF5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37D788417E5533800034BF5 /* Main_iPhone.storyboard */; };
+		C37D788917E5533800034BF5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37D788717E5533800034BF5 /* Main_iPad.storyboard */; };
+		C37D788C17E5533800034BF5 /* FrackerFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D788B17E5533800034BF5 /* FrackerFirstViewController.m */; };
+		C37D788F17E5533800034BF5 /* FrackerSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D788E17E5533800034BF5 /* FrackerSecondViewController.m */; };
+		C37D789117E5533800034BF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37D789017E5533800034BF5 /* Images.xcassets */; };
+		C37D789817E5533800034BF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D789717E5533800034BF5 /* XCTest.framework */; };
+		C37D789917E5533800034BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D787217E5533800034BF5 /* Foundation.framework */; };
+		C37D789A17E5533800034BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D787617E5533800034BF5 /* UIKit.framework */; };
+		C37D78A217E5533800034BF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C37D78A017E5533800034BF5 /* InfoPlist.strings */; };
+		C37D78A417E5533800034BF5 /* FrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D78A317E5533800034BF5 /* FrackerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C37D789B17E5533800034BF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C37D786717E5533800034BF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37D786E17E5533800034BF5;
+			remoteInfo = Fracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C37D786F17E5533800034BF5 /* Fracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37D787217E5533800034BF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C37D787417E5533800034BF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C37D787617E5533800034BF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C37D787A17E5533800034BF5 /* Fracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fracker-Info.plist"; sourceTree = "<group>"; };
+		C37D787C17E5533800034BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C37D787E17E5533800034BF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C37D788017E5533800034BF5 /* Fracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fracker-Prefix.pch"; sourceTree = "<group>"; };
+		C37D788117E5533800034BF5 /* FrackerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrackerAppDelegate.h; sourceTree = "<group>"; };
+		C37D788217E5533800034BF5 /* FrackerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrackerAppDelegate.m; sourceTree = "<group>"; };
+		C37D788517E5533800034BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C37D788817E5533800034BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C37D788A17E5533800034BF5 /* FrackerFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrackerFirstViewController.h; sourceTree = "<group>"; };
+		C37D788B17E5533800034BF5 /* FrackerFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrackerFirstViewController.m; sourceTree = "<group>"; };
+		C37D788D17E5533800034BF5 /* FrackerSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrackerSecondViewController.h; sourceTree = "<group>"; };
+		C37D788E17E5533800034BF5 /* FrackerSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrackerSecondViewController.m; sourceTree = "<group>"; };
+		C37D789017E5533800034BF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C37D789617E5533800034BF5 /* FrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37D789717E5533800034BF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C37D789F17E5533800034BF5 /* FrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FrackerTests-Info.plist"; sourceTree = "<group>"; };
+		C37D78A117E5533800034BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C37D78A317E5533800034BF5 /* FrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrackerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37D786C17E5533800034BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37D787517E5533800034BF5 /* CoreGraphics.framework in Frameworks */,
+				C37D787717E5533800034BF5 /* UIKit.framework in Frameworks */,
+				C37D787317E5533800034BF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37D789317E5533800034BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37D789817E5533800034BF5 /* XCTest.framework in Frameworks */,
+				C37D789A17E5533800034BF5 /* UIKit.framework in Frameworks */,
+				C37D789917E5533800034BF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C37D786617E5533800034BF5 = {
+			isa = PBXGroup;
+			children = (
+				C37D787817E5533800034BF5 /* Fracker */,
+				C37D789D17E5533800034BF5 /* FrackerTests */,
+				C37D787117E5533800034BF5 /* Frameworks */,
+				C37D787017E5533800034BF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C37D787017E5533800034BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C37D786F17E5533800034BF5 /* Fracker.app */,
+				C37D789617E5533800034BF5 /* FrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37D787117E5533800034BF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C37D787217E5533800034BF5 /* Foundation.framework */,
+				C37D787417E5533800034BF5 /* CoreGraphics.framework */,
+				C37D787617E5533800034BF5 /* UIKit.framework */,
+				C37D789717E5533800034BF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C37D787817E5533800034BF5 /* Fracker */ = {
+			isa = PBXGroup;
+			children = (
+				C37D788117E5533800034BF5 /* FrackerAppDelegate.h */,
+				C37D788217E5533800034BF5 /* FrackerAppDelegate.m */,
+				C37D788417E5533800034BF5 /* Main_iPhone.storyboard */,
+				C37D788717E5533800034BF5 /* Main_iPad.storyboard */,
+				C37D788A17E5533800034BF5 /* FrackerFirstViewController.h */,
+				C37D788B17E5533800034BF5 /* FrackerFirstViewController.m */,
+				C37D788D17E5533800034BF5 /* FrackerSecondViewController.h */,
+				C37D788E17E5533800034BF5 /* FrackerSecondViewController.m */,
+				C37D789017E5533800034BF5 /* Images.xcassets */,
+				C37D787917E5533800034BF5 /* Supporting Files */,
+			);
+			path = Fracker;
+			sourceTree = "<group>";
+		};
+		C37D787917E5533800034BF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C37D787A17E5533800034BF5 /* Fracker-Info.plist */,
+				C37D787B17E5533800034BF5 /* InfoPlist.strings */,
+				C37D787E17E5533800034BF5 /* main.m */,
+				C37D788017E5533800034BF5 /* Fracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C37D789D17E5533800034BF5 /* FrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C37D78A317E5533800034BF5 /* FrackerTests.m */,
+				C37D789E17E5533800034BF5 /* Supporting Files */,
+			);
+			path = FrackerTests;
+			sourceTree = "<group>";
+		};
+		C37D789E17E5533800034BF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C37D789F17E5533800034BF5 /* FrackerTests-Info.plist */,
+				C37D78A017E5533800034BF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37D786E17E5533800034BF5 /* Fracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37D78A717E5533800034BF5 /* Build configuration list for PBXNativeTarget "Fracker" */;
+			buildPhases = (
+				C37D786B17E5533800034BF5 /* Sources */,
+				C37D786C17E5533800034BF5 /* Frameworks */,
+				C37D786D17E5533800034BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fracker;
+			productName = Fracker;
+			productReference = C37D786F17E5533800034BF5 /* Fracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C37D789517E5533800034BF5 /* FrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37D78AA17E5533800034BF5 /* Build configuration list for PBXNativeTarget "FrackerTests" */;
+			buildPhases = (
+				C37D789217E5533800034BF5 /* Sources */,
+				C37D789317E5533800034BF5 /* Frameworks */,
+				C37D789417E5533800034BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C37D789C17E5533800034BF5 /* PBXTargetDependency */,
+			);
+			name = FrackerTests;
+			productName = FrackerTests;
+			productReference = C37D789617E5533800034BF5 /* FrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C37D786717E5533800034BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Fracker;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = GeoffMacDonald;
+				TargetAttributes = {
+					C37D789517E5533800034BF5 = {
+						TestTargetID = C37D786E17E5533800034BF5;
+					};
+				};
+			};
+			buildConfigurationList = C37D786A17E5533800034BF5 /* Build configuration list for PBXProject "Fracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C37D786617E5533800034BF5;
+			productRefGroup = C37D787017E5533800034BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C37D786E17E5533800034BF5 /* Fracker */,
+				C37D789517E5533800034BF5 /* FrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C37D786D17E5533800034BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37D788917E5533800034BF5 /* Main_iPad.storyboard in Resources */,
+				C37D789117E5533800034BF5 /* Images.xcassets in Resources */,
+				C37D788617E5533800034BF5 /* Main_iPhone.storyboard in Resources */,
+				C37D787D17E5533800034BF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37D789417E5533800034BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37D78A217E5533800034BF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37D786B17E5533800034BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37D787F17E5533800034BF5 /* main.m in Sources */,
+				C37D788F17E5533800034BF5 /* FrackerSecondViewController.m in Sources */,
+				C37D788317E5533800034BF5 /* FrackerAppDelegate.m in Sources */,
+				C37D788C17E5533800034BF5 /* FrackerFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37D789217E5533800034BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37D78A417E5533800034BF5 /* FrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C37D789C17E5533800034BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37D786E17E5533800034BF5 /* Fracker */;
+			targetProxy = C37D789B17E5533800034BF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C37D787B17E5533800034BF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37D787C17E5533800034BF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C37D788417E5533800034BF5 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37D788517E5533800034BF5 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C37D788717E5533800034BF5 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37D788817E5533800034BF5 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C37D78A017E5533800034BF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37D78A117E5533800034BF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C37D78A517E5533800034BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C37D78A617E5533800034BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C37D78A817E5533800034BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fracker/Fracker-Prefix.pch";
+				INFOPLIST_FILE = "Fracker/Fracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C37D78A917E5533800034BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fracker/Fracker-Prefix.pch";
+				INFOPLIST_FILE = "Fracker/Fracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C37D78AB17E5533800034BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fracker.app/Fracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fracker/Fracker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FrackerTests/FrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C37D78AC17E5533800034BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fracker.app/Fracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fracker/Fracker-Prefix.pch";
+				INFOPLIST_FILE = "FrackerTests/FrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37D786A17E5533800034BF5 /* Build configuration list for PBXProject "Fracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37D78A517E5533800034BF5 /* Debug */,
+				C37D78A617E5533800034BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37D78A717E5533800034BF5 /* Build configuration list for PBXNativeTarget "Fracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37D78A817E5533800034BF5 /* Debug */,
+				C37D78A917E5533800034BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C37D78AA17E5533800034BF5 /* Build configuration list for PBXNativeTarget "FrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37D78AB17E5533800034BF5 /* Debug */,
+				C37D78AC17E5533800034BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C37D786717E5533800034BF5 /* Project object */;
+}
