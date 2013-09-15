@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C373149F-D5D4-45FE-B6D1-2C2FF6FFFB5C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fracker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68DDDEAF-21CF-4F65-96BA-F2ED7EAF8A42</key>
+		<string>https://github.com/xtreme-geoff-macdonald/Fracker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fracker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68DDDEAF-21CF-4F65-96BA-F2ED7EAF8A42</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xtreme-geoff-macdonald/Fracker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68DDDEAF-21CF-4F65-96BA-F2ED7EAF8A42</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68DDDEAF-21CF-4F65-96BA-F2ED7EAF8A42</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fracker</string>
+		</dict>
+	</array>
+</dict>
+</plist>

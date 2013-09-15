@@ -1,5 +1,5 @@
 //
-//  FrackerFirstViewController.h
+//  DailyStockCell.h
 //  Fracker
 //
 //  Created by Xtreme Dev on 2013-09-14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FrackerFirstViewController : UIViewController
+@interface DailyStockCell : UITableViewCell
 
 @end
